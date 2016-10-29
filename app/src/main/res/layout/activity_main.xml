@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/repeat_bg">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:id="@+id/main_btns">
+
+            <Button
+                android:id="@+id/main_start_btn"
+                android:background="@drawable/main_start_btn_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dp"
+                android:minHeight="120dp"
+                android:text="单机挑战"
+                android:layout_marginTop="10dip" />
+
+            <Button
+                android:id="@+id/main_bluegame_btn"
+                android:background="@drawable/main_bluegame_btn_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dp"
+                android:minHeight="120dp"
+                android:text="蓝牙对战"
+                android:layout_alignTop="@id/main_start_btn"
+                android:layout_toRightOf="@id/main_start_btn" />
+
+            <Button
+                android:id="@+id/main_network_btn"
+                android:background="@drawable/main_newgame_btn_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dp"
+                android:minHeight="120dp"
+                android:text="网络对战"
+                android:layout_below="@id/main_start_btn"/>
+
+            <Button
+                android:id="@+id/main_mynotes_btn"
+                android:background="@drawable/main_history_btn_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="120dp"
+                android:minHeight="120dp"
+                android:text="我的记录"
+                android:layout_below="@id/main_bluegame_btn"
+                android:layout_toRightOf="@id/main_network_btn" />
+
+            <TextView
+                android:layout_below="@id/main_network_btn"
+                android:layout_width="10dip"
+                android:layout_height="80dip" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/main_top"
+        android:orientation="vertical">
+        <!-- 头部开始 -->
+        <include layout="@layout/title" />
+        <!-- 头部结束 -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/foot" />
+    </LinearLayout>
+</RelativeLayout>

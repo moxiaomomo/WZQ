@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">超级五子棋</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Role_black">黑方</string>
+    <string name="Role_white">白方</string>
+    <string name="home">主页</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="discover">发现</string>
+    <string name="five_chess">五子棋</string>
+    <string name="player">玩家</string>
+    <string name="AI_1">人机对战(入门级)</string>
+    <string name="AI_2">人机对战(高手级)</string>
+    <string name="AI_3">人机对战(大师级)</string>
+    <string name="second">秒</string>
+    <string name="gaming">进行中...</string>
+    <string name="game_over">游戏结束</string>
+    <string name="myInfo">个人信息</string>
+    <string name="actor1">路人甲(入门级)</string>
+    <string name="actor2">周瑜(专家级)</string>
+    <string name="actor3">诸葛亮(大师级)</string>
+    <string name="setRecord">记录设置</string>
+    <string name="setMedia">音效设置</string>
+    <string name="setActor">对手设置</string>
+    <string name="setBlueTeeth">蓝牙设置</string>
+    <string name="setRestore">恢复默认设置</string>
+    <string name="score">得分</string>
+    <string name="again">重新再来</string>
+    <string name="exit">退出</string>
+    <string name="win">胜利!</string>
+    <string name="lose">失败!</string>
+    <string name="equal">平局</string>
+    <string name="player_time">等待玩家下棋...</string>
+    <string name="ai_time">等待对方下棋...</string>
+</resources>
